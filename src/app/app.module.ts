@@ -2,10 +2,14 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { CarritoComponent } from './carrito/carrito.component';
+import { BusquedaComponent } from './busqueda/busqueda.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CarritoComponent,
+    BusquedaComponent
   ],
   imports: [
     BrowserModule
